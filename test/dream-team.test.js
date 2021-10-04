@@ -211,7 +211,7 @@ describe('Dream team', () => {
         'Brooke',
       ]), 'ABDEFGJLMMR');
     });
-    it.optional('should handle non-standard cases', () => {
+    it.optional('should handle non-standard  ', () => {
       assert.equal(createDreamTeam([
         ['David Abram'],
         ['Robin Attfield'],
